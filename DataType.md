@@ -3,7 +3,7 @@
 What kind of data being store.
 
 
-The latest ECMAScript standard defines eight data types:
+* * The latest ECMAScript standard defines eight data types:* *
 
 
 Primitive Data Type:- 
