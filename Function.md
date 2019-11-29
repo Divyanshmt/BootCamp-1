@@ -93,6 +93,7 @@ const lessThan30 = lessThan(30);
 lessThan30(20)
 ```
 
+**factory function**
 
 A factory function is any function which is not a class or constructor that returns a  object. In JavaScript, any function can return an object. When it does so without the new keyword, it's a factory function.
 
