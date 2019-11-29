@@ -79,7 +79,7 @@ Non-primitive data types are mutable meaning able to be changed.`
 
 **Questions :-**
 
-**1.** Is js loosely typed language?[Answer](#1.)
+**1.** Is js loosely typed language?[Answer](###1.)
 
 
 **2** .
