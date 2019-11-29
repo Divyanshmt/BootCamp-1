@@ -81,30 +81,48 @@ Non-primitive data types are mutable meaning able to be changed.`
 
 **1.** Is js loosely typed language?
 
+[Answer](**1.**)
+
 
 **2** .
 ```
  typeof 12 == typeof 12;
  typeof 13 == typeof "String";
  typeof "Number" == typeof "String";
- false == true;
+ false == true; 
 ```
+[Answer](**2.**)
 
 **3.**  
 ```
 var name;
 console.log(name);
 ```
+[Answer](**3.**)
+
+
+
+
+
+
 
 **Answer** :- 
 
-**1.**  
+
+**1.**
+
 Yes, javascript is loosely typed because we don't have to declare a variable type.JS automatically determine the type and that cane be change.Like
+
 
 ```
 var type = "String";
-var type = "Number";
+var type = 12;
 ```
+
+
+
+
+
 
 **2.**
 ```
@@ -113,6 +131,10 @@ false
 true
 false
 ```
+
+
+
+
 
 **3.**
 ```
