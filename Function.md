@@ -11,7 +11,7 @@ A `function` is a block of organized, reusable code that is used to perform a si
 
 **There are 3 types of functions in JavaScript:**
 
-- Named function:-
+* **`Named function:-`**
 
 The anonymous functions  have names.
 
@@ -20,7 +20,8 @@ function sum(a, b) {
   console.log(a+b)
 }
 ```
-- Anonymous function:-
+- **`Anonymous function:-`**
+
 The anonymous functions don't have names.
 
 ```js
@@ -29,7 +30,8 @@ The anonymous functions don't have names.
 })
 ```
 
-- Immediately invoked function expression:-
+- **`Immediately invoked function expression:-`**
+
 It runs as soon as the browser finds it.
 
 ```js
@@ -40,7 +42,7 @@ It runs as soon as the browser finds it.
 
 ----------------------------
 
-**Arrow Function:-**
+## Arrow Function:-
 
  Arrow functions make our code more concise, and simplify function scoping and the this keyword.
  
@@ -58,7 +60,7 @@ hello.call({name: 'tom'});
 ```
 
 
-**Higher Order Functions :-**
+## Higher Order Functions :-
 
 
 Higher order functions are functions that operate on other functions, either by taking them as arguments or by returning them. In simple words, A Higher-Order function is a function that receives a function as an argument or returns the function as output.
@@ -93,7 +95,7 @@ const lessThan30 = lessThan(30);
 lessThan30(20)
 ```
 
-**factory function**
+## Factory Function
 
 A factory function is any function which is not a class or constructor that returns a  object. In JavaScript, any function can return an object. When it does so without the new keyword, it's a factory function.
 
@@ -115,7 +117,7 @@ console.log(createUser({userName: 'echo'}))
 
 
 
-**_Function Expression:- _**
+## Function Expression:- 
 
 Function expressions load only when the `interpreter` reaches that line of code.
 
@@ -126,7 +128,7 @@ console.log(foo());
 const foo = function() { return 5; }
 
 ```
-**_Function Declaration:-_**
+## Function Declaration:-
 
 Function declarations load `before` any code is executed
 
