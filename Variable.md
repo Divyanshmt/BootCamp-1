@@ -111,7 +111,7 @@ foo(); //inside function: apple
 console.log(fruit);//error: fruit is not defined 
 
 ```
-[Back to top](#Var).
+
 </details>
 
 
@@ -136,7 +136,9 @@ function foo(){
 }
 
 foo();
-[Back to top](#let).
+
+
+
 ```
 </details>
 
@@ -185,7 +187,7 @@ Hoisting in JavaScript is a feature in which the interpreter moves the function 
 
 ![hoisting](https://chiendt.files.wordpress.com/2017/05/screenshot-at-may-16-14-57-31.png)
 
-[Back to top](#Var).
+
 
 
 
