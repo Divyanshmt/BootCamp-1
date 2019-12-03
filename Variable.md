@@ -196,7 +196,9 @@ Hoisting in JavaScript is a feature in which the interpreter moves the function 
 
 **_Question:-_**
 
-1.Different between let,var and const <details>
+1. Different between let,var and const ?
+
+<details>
 <summary>Answer</summary>
 
 Keyword | Scope | Hoisting | Can Be Reassigned | Can Be Redeclared
@@ -208,22 +210,75 @@ const | Block scope | No | No | No
 
 </details>
 
-2.Please look at the code and explain why this is working without keyword ?
+2. How to make a variable global in this code ?
+
 
 ```js
-{ 
-   a = 2;
-  b = 4;
-  c = 3;
-
-  const result = (a+b)/c;
-
-  var a, b, c;
-
-  console.log('result', result); 
+{
+let a = 10;
+let b = 13;
+let c = 20;
+}
 ```
 
 <details>
 <summary>Answer</summary>
-Result is 2 becasue when we are not declaring any variable without keyword bydefault js will take it as var.
+A can become a global variable without using  a keyword because js will by default take this var.
+
+```js
+{
+ a = 10;
+let b = 13;
+let c = 20;
+}
+
+// But this is not a good approach because anyone can manipulate with our object easily.
+```
+</details>
+
+
+3. If var is functional scope.Where is the function in this code?
+<details>
+<summary>Answer</summary>
+
+
+```js
+{
+ var a = 10;
+ var b = 13;
+ var c = 20;
+}
+
+```
+In js main function runs first. In other programming languages like Java, c++. We have to write the main function but it’s already by default store  in js when code will compile first main function will run.
+
+</details>
+
+4. How hoisting works with var ?
+
+<details>
+<summary>Answer</summary>
+
+Hoisting works with var because at compiling time the variable if declared with the var keyword will get stored in window object.
+
+```js
+var a = 10;
+
+function fun(){
+console.log(this);
+}
+
+fun();
+
+```
+
+
+</details>
+
+5. Why let and const don’t work with hoisting ?
+
+<details>
+<summary>Answer</summary>
+
+These keywords will not work with hoisting because if variables which are declared by these keywords will store in heap memory while executing time.
 </details>
