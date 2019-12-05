@@ -194,7 +194,7 @@ Hoisting in JavaScript is a feature in which the interpreter moves the function 
 
 
 
-**_Question:-_**
+**_Questions:-_**
 
 1. Different between let,var and const ?
 
@@ -262,14 +262,12 @@ In js main function runs first. In other programming languages like Java, c++. W
 Hoisting works with var because at compiling time the variable if declared with the var keyword will get stored in window object.
 
 ```js
-var a = 10;
+let b = 10;
+var a = 20;
 
-function fun(){
-console.log(this);
-}
+window.b; //undefined  because b is not store in window object.
 
-fun();
-
+window.a // 20 because a stored in window object.
 ```
 
 
@@ -279,6 +277,5 @@ fun();
 
 <details>
 <summary>Answer</summary>
-
-These keywords will not work with hoisting because if variables which are declared by these keywords will store in heap memory while executing time.
+let and const keywords value will store in memory while executing time.
 </details>
